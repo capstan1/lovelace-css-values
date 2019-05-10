@@ -47,7 +47,7 @@ Sources:
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
 |`primary-text-color:`|`'#FFFFFF'`| | CSS color value for the color to be used.
-|`text-primary-color:`| | |
+|`text-primary-color:`| |color of the text and icons in the header|
 |`secondary-text-color:`| | | 
 |`disabled-text-color:`| | |
 |`accent-color:`| | | 
@@ -59,7 +59,7 @@ Sources:
 |`secondary-background-color:`| | |
 |`border-color:`| | | 
 |`divider-color:`| | |
-|`primary-color:`| | |
+|`primary-color:`| |color of the headers background, the highlighted element in the Sidebar, buttons in lovelace|
 |`dark-primary-color:`| | | 
 |`light-primary-color:`| | |
 |`paper-tabs-selection-bar-color:`| | |
