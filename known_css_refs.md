@@ -75,6 +75,7 @@ Sources:
 |`dark-secondary-opacity:`| | | 
 |`dark-disabled-opacity:`| | |
 |`paper-listbox-color:`|CSS color value, ie. `red`| |Color of the overall text of the popup menues (such as "3 dot menu" and background of hovered icon (in a lighter shade of the same color)
+|`primary-background-color:`| | | color of the sidebar headers background (space behind the text "Home Assistant" and your Avatar), background of More Info Dialogs if 'paper-dialog-background-color' isn't defined
 
 ## Header
 | Element | Example Value | HA Version | Description
@@ -83,20 +84,21 @@ Sources:
 ## Left Menu
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
-|`paper-listbox-background-color:`|CSS color value, ie. `red`| |Color of the background of the left sidebar menu.
+|`sidebar-background-color:`|CSS color value, ie. `red`| |Background color of the sidebars (left sidebar and notification overlay)
+|`paper-listbox-background-color:`|CSS color value, ie. `red`| |Background color of the Menu in the sidebar (containing shortcuts)
 |`paper-listbox_-_font-family:`|Roboto, sans serif | |Font used for the left sidebar menu. 
 |`sidebar-icon-color:`|CSS color value, ie. `red`| |Color for the icons in the left sidebar menu.
 |`sidebar-selected-icon-color:`|CSS color value, ie. `red`| |Color for the currently selected icon in the left sidebar menu. 
 |`sidebar-selected-text-color:`|CSS color value, ie. `red`| |Color for the text of the currently selected menu item in the left sidebar menu.
 |`sidebar-text_-_background:`|CSS color value, ie. `red`| |
-|`primary-background-color:`| | | color of the sidebar headers background (space behind the text "Home Assistant" and your Avatar)
+
 
 ## Card Elements
 | Element | Example Value | HA Version | Description
 | ---- | ---- | ---- | -----------
 |`paper-card-header-color:`| | | 
 |`paper-card-background-color:`| white| | background of the cards
-|`paper-dialog-background-color:`| | |background color of dialogs that appear when clicking on a entity
+|`paper-background-color:`| | |background color of dialogs that appear when clicking on a entity
 |`paper-dialog-color:`| | |text color of dialogs that appear when clicking on a entity 
 |`paper-item-icon-color:`| | |color of entities icons when off,
 |`paper-item-icon-active-color:`| | |color of entities icons when on, gets overriden by lights color if available 
