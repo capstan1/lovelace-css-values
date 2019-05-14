@@ -105,12 +105,12 @@ Sources:
 |`paper-item-icon_-_color:`| | | 
 |`paper-item-selected_-_background-color:`| | |
 |`paper-menu-button-dropdown-background:`| | | 
-|`paper-slider-height:`| | |Height of the slider.
-|`paper-slider-container-color:`| | |Color of the part of the slider which is not active.
-|`paper-slider-knob-color:`| | | 
-|`paper-slider-knob-start-color:`| | | 
-|`paper-slider-pin-color:`| | | 
-|`paper-slider-active-color:`| | |Color of the part of the slider which is active.
+|`paper-slider-height:`|height in pixels, eg. `1opx`| |Height of the slider.
+|`paper-slider-container-color:`| | |Color of the part of the slider which is not active (right of the knob).
+|`paper-slider-active-color:`| | |Color of the part of the slider which is active (left of the knob).
+|`paper-slider-knob-color:`|CSS color value, ie. `white`| |Color of the knob you use to control sliders (e.g. volume or brightness) 
+|`paper-slider-knob-start-color:`|CSS color value, ie. `grey`| | Color the knob has when the value is 0
+|`paper-slider-pin-color:`|CSS color value, ie. `white`| |Color of the little pin indicating the current value that appears when changing the sliders value
 |`paper-slider-secondary-color:`| | | 
 |`paper-slider-disabled-active-color:`| | | 
 |`paper-toggle-button-checked-button-color:`|CSS color value, ie. `red`| |Color of the button for an on/off toggle when turned on. 
@@ -151,7 +151,7 @@ Sources:
 |`label-badge-border-color:`| | | 
 |`paper-grey-50:`| | | 
 |`paper-grey-200:`| | | 
-|`paper-progress-height:`| | |
+|`paper-progress-height:`|`7px`| |height of progress bars - as used in media player cards
 |`paper-tabs-selection-bar-color:`| | |
 |`ha-label-badge-color:`| | |  
 |`label-badge-red:`| | | 
